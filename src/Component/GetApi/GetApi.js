@@ -24,13 +24,11 @@ export default function GetApi() {
                 {data.products?.map((products) => {
                     return (
                         <Card
-                            brand={products.brand}
-                            category={products.category}
                             title={products.title}
                             discountPercentage={products.discountPercentage}
                             price={products.price}
                             thumbnail={products.thumbnail}
-                            stock={products.stock}
+                            description={products.description}
                         />
                     )
                 })}

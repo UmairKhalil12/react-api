@@ -1,0 +1,10 @@
+.shop-button{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: #0F6FF7;
+    color: white; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
